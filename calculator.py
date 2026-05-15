@@ -12,4 +12,4 @@ elif operation=="*":
 elif operation=="/":
      print(num1/num2)
 else:
-     pritn("invalid operation")
+     print("invalid operation")
