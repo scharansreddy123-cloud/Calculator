@@ -1,5 +1,4 @@
 import math
-history []
 num1=int(input("Enter first number: "))
 num2=int(input("Enter second number: "))
  
@@ -30,7 +29,3 @@ elif operation=="abs":
 else:
      print("invalid operation")
      result=None
-if result is not None:
-    print("Result:", result)
-    history.append(result)
-    print("History:", history) 
