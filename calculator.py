@@ -27,3 +27,8 @@ elif operation=="abs":
      result=abs(num1)
 else:
      print("invalid operation")
+     result=None
+if result is not None:
+    print("Result:", result)
+    history.append(result)
+    print("History:", history) 
